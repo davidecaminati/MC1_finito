@@ -42,3 +42,15 @@ Name=hide mouse
 Comment=hide mouse
 Exec=unclutter
 #OnlyShowIn=LXDE
+
+To autostart python script
+as root 
+cd /root/.config/autostart/
+- create a file named mc1-autostart.desktop
+- open the file and write
+[Desktop Entry]
+Type=Application
+Name=mc1 autostart
+Comment=Start mc1
+Exec=lxterminal -e bash /root/Desktop/mc1.sh
+#OnlyShowIn=LXDE
