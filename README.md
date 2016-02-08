@@ -54,3 +54,7 @@ Name=mc1 autostart
 Comment=Start mc1
 Exec=lxterminal -e bash /root/Desktop/mc1.sh
 #OnlyShowIn=LXDE
+
+
+The Source of Arduino Motor is
+https://codebender.cc/sketch:202740
